@@ -16,12 +16,14 @@
   }
 }
 
+.h-80vh {
+  height: 80vh;
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  
+}
+
+html {
+  scroll-behavior: smooth;
 }
